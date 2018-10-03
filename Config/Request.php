@@ -60,9 +60,6 @@ class Request
             } else {
                 $this->parametros = $_POST;
             }
-           /* echo '<pre>';
-            var_dump($this);
-            echo '</pre>';*/
         }
 
         /**

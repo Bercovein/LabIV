@@ -1,4 +1,5 @@
-<?php namespace Controller;
+<?php 
+namespace Controller;
 
 require_once("Config/Autoload.php");
 use Model\Artist as Artist;
@@ -29,15 +30,22 @@ class ArtistManagementControl{
 		$this->daoArtist->add($artist);
 
 		$this->index();
+	}
+
+	public function deleteArtist($name){
+		if(isset($this->daoArtist)){
+			
+			$artist= new Artist();
+			$artist->setArtisticName($name);
+			$this->daoArtist->delete($artist);
 		}
+		else echo 'no hay artistas';
+	}
 
-		public function deleteArtist(){
+	public function updateArtist(){
 
-		}
+	}
 
-		public function updateArtist(){
-
-		}
 }
 
 ?>

@@ -1,4 +1,5 @@
-<?php namespace Config;
+<?php 
+namespace Config;
 
     class Router {
 
@@ -12,7 +13,6 @@
         {      
             $controlador = $request->getControladora();
             $metodo = $request->getMetodo();
-
             $parametros = $request->getParametros();
           
             $objeto = "Controller\\".$controlador;

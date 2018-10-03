@@ -1,4 +1,5 @@
-<?php namespace Vista;
+<?php 
+namespace Vista;
 
 ?>
 

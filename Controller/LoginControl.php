@@ -22,11 +22,18 @@ class LoginControl{
 			$user=new User();
 			$user->setName($name);
 			$user->setPassword($password);
+
 			$_SESSION['UserLogged']=$user;
+			
 			require(ROOT.'Vista/Main.php');
 		}
 		else
 			$this->index();	
+	}
+
+	public function UserLogout(){
+
+		/*si hay un metodo login deberia haber un logout*/
 	}
 
 
