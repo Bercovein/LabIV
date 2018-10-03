@@ -11,7 +11,7 @@
 	/**
 	 * Archivos necesarios de inicio
 	 */
-	require_once "Config/constantes.php";
+	require_once "Config/Constants.php";
 	require_once "Config/Autoload.php";
 	
 	require_once "Config/Request.php";

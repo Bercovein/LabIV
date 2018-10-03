@@ -1,4 +1,5 @@
-<?php namespace Model;
+<?php 
+namespace Model;
 
 class Artist {
 

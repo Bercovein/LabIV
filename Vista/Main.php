@@ -9,7 +9,7 @@
 
 	<h2>Sorry, Estamos trabajando en ello.</h2>
 
-	<a href="../Controller/Logout.php"><button><--Regresar</button></a>
+	<a href="../index.php"><button><--Regresar</button></a>
 
 </body>
 </html>
